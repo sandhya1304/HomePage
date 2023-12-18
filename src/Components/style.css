@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .navbar-dark {
+    background-color: #cd69d0;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .globe-icon {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .emoji {
+    margin-right: 5px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    margin-left: 30%;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  
+  .try-it-link {
+    color: white;
+    text-decoration: underline;
+  }
+
+/* Second Navbar Styles */
+.navbar-light {
+    background-color: #fff; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .navbar-light a {
+    color: #343a40; 
+    text-decoration: none;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .svg-logo {
+    width: 150px; 
+    margin-left: 300px; 
+  }
+  
+  .navbar-links {
+    display: flex;
+    margin-right: 15%;
+  }
+  
+  .navbar-links a {
+    color: #343a40;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+  }
+  
+
+.FaGithub {
+    font-size: 24px;
+   
+  }
+
+
+  @media (max-width: 768px) {
+    .navbar-light {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .navbar-links {
+      margin-top: 10px; 
+      margin-right: 0; 
+    }
+  
+    .navbar-links a {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  }
+  
+.navbar-dark a:hover {
+  color: blue; 
+}
+
+.try-it-link:hover {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.navbar-light a:hover {
+  color: #007bff; 
+}
+
+.FaGithub:hover {
+  color: #007bff; 
+}
+
+@media (max-width: 768px) {
+  .navbar-light a:hover {
+    color: #007bff; 
+  }
+
+  .navbar-light a {
+    margin-bottom: 5px; 
+  }
+}
+

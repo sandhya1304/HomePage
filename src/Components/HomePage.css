@@ -1,0 +1,64 @@
+/* HomePage.css */
+.container {
+    background-image: url('Background.png'); 
+    background-size: cover;
+    background-position: center; 
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100%;
+}
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .display-3 {
+    font-size: 4rem; 
+    margin-bottom: auto; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+  }
+  
+  .display-4 {
+    font-size: 4rem; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem; 
+    line-height: 1.2; 
+    margin-top: 10px;
+    font-weight: normal;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  
+  .btn-primary-blue {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .btn-primary-white {
+    background-color: #fff;
+    border: 2px solid #007bff; 
+    position: relative;
+    padding-right: 30px; 
+  }
+  
+  .btn-primary-white::after {
+    content: '\2192'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
